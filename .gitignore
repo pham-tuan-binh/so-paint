@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+runs/
+.DS_Store
+dist/
+/workspace.json
+
+LOCAL_NOTES.md
+.env
+.env.*

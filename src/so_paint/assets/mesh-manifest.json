@@ -1,0 +1,71 @@
+{
+  "repository": "TheRobotStudio/SO-ARM100",
+  "commit": "eecbe3e0a9ebb23e25ad7b2759b03884c6660903",
+  "files": [
+    {
+      "path": "assets/base_motor_holder_so101_v1.stl",
+      "sha256": "8cd2f241037ea377af1191fffe0dd9d9006beea6dcc48543660ed41647072424",
+      "bytes": 1877084
+    },
+    {
+      "path": "assets/base_so101_v2.stl",
+      "sha256": "bb12b7026575e1f70ccc7240051f9d943553bf34e5128537de6cd86fae33924d",
+      "bytes": 471584
+    },
+    {
+      "path": "assets/motor_holder_so101_base_v1.stl",
+      "sha256": "31242ae6fb59d8b15c66617b88ad8e9bded62d57c35d11c0c43a70d2f4caa95b",
+      "bytes": 1129384
+    },
+    {
+      "path": "assets/motor_holder_so101_wrist_v1.stl",
+      "sha256": "887f92e6013cb64ea3a1ab8675e92da1e0beacfd5e001f972523540545e08011",
+      "bytes": 1052184
+    },
+    {
+      "path": "assets/moving_jaw_so101_v1.stl",
+      "sha256": "785a9dded2f474bc1d869e0d3dae398a3dcd9c0c345640040472210d2861fa9d",
+      "bytes": 1413584
+    },
+    {
+      "path": "assets/rotation_pitch_so101_v1.stl",
+      "sha256": "9be900cc2a2bf718102841ef82ef8d2873842427648092c8ed2ca1e2ef4ffa34",
+      "bytes": 883684
+    },
+    {
+      "path": "assets/sts3215_03a_no_horn_v1.stl",
+      "sha256": "75ef3781b752e4065891aea855e34dc161a38a549549cd0970cedd07eae6f887",
+      "bytes": 865884
+    },
+    {
+      "path": "assets/sts3215_03a_v1.stl",
+      "sha256": "a37c871fb502483ab96c256baf457d36f2e97afc9205313d9c5ab275ef941cd0",
+      "bytes": 954084
+    },
+    {
+      "path": "assets/under_arm_so101_v1.stl",
+      "sha256": "d01d1f2de365651dcad9d6669e94ff87ff7652b5bb2d10752a66a456a86dbc71",
+      "bytes": 1975884
+    },
+    {
+      "path": "assets/upper_arm_so101_v1.stl",
+      "sha256": "475056e03a17e71919b82fd88ab9a0b898ab50164f2a7943652a6b2941bb2d4f",
+      "bytes": 1303484
+    },
+    {
+      "path": "assets/waveshare_mounting_plate_so101_v2.stl",
+      "sha256": "e197e24005a07d01bbc06a8c42311664eaeda415bf859f68fa247884d0f1a6e9",
+      "bytes": 62784
+    },
+    {
+      "path": "assets/wrist_roll_follower_so101_v1.stl",
+      "sha256": "4b17b410a12d64ec39554abc3e8054d8a97384b2dc4a8d95a5ecb2a93670f5f4",
+      "bytes": 1439884
+    },
+    {
+      "path": "assets/wrist_roll_pitch_so101_v2.stl",
+      "sha256": "6c7ec5525b4d8b9e397a30ab4bb0037156a5d5f38a4adf2c7d943d6c56eda5ae",
+      "bytes": 2699784
+    }
+  ]
+}

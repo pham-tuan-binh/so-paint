@@ -1,0 +1,233 @@
+{
+  "backend": "simulation",
+  "robot": {
+    "model": "so101",
+    "port": null,
+    "id": null,
+    "calibration_path": null,
+    "gripper": "closed",
+    "joint_signs": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "joint_offsets_deg": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "gripper_closed_pct": null,
+    "backlash_deg": 6.0,
+    "max_relative_target_deg": 8.0,
+    "max_tracking_error_deg": 6.0,
+    "start_tolerance_deg": 4.0,
+    "feedback_timeout_s": 0.5,
+    "disable_torque_on_disconnect": false
+  },
+  "look_at_cameras": null,
+  "rerun_screenshots": true,
+  "record_camera_hz": 2.0,
+  "record_cameras_during_motion": false,
+  "workspace": {
+    "paper_corners_xy": [
+      [
+        0.15,
+        0.035
+      ],
+      [
+        0.225,
+        0.035
+      ],
+      [
+        0.225,
+        -0.035
+      ],
+      [
+        0.15,
+        -0.035
+      ]
+    ],
+    "stations": [
+      {
+        "name": "red",
+        "kind": "paint",
+        "center": [
+          0.145,
+          -0.065,
+          0.012
+        ],
+        "radius_m": 0.01,
+        "rim_z": 0.018,
+        "immersion_m": 0.0,
+        "mixing_well": false,
+        "color_rgb": [
+          220,
+          55,
+          65
+        ]
+      },
+      {
+        "name": "blue",
+        "kind": "paint",
+        "center": [
+          0.18,
+          -0.07,
+          0.012
+        ],
+        "radius_m": 0.01,
+        "rim_z": 0.018,
+        "immersion_m": 0.0,
+        "mixing_well": false,
+        "color_rgb": [
+          45,
+          100,
+          220
+        ]
+      },
+      {
+        "name": "yellow",
+        "kind": "paint",
+        "center": [
+          0.215,
+          -0.065,
+          0.012
+        ],
+        "radius_m": 0.01,
+        "rim_z": 0.018,
+        "immersion_m": 0.0,
+        "mixing_well": false,
+        "color_rgb": [
+          245,
+          195,
+          40
+        ]
+      },
+      {
+        "name": "washer",
+        "kind": "washer",
+        "center": [
+          0.18,
+          0.065,
+          0.012
+        ],
+        "radius_m": 0.01,
+        "rim_z": 0.018,
+        "immersion_m": 0.0,
+        "mixing_well": false,
+        "color_rgb": [
+          135,
+          185,
+          180
+        ]
+      }
+    ],
+    "source": "simulation_fixture"
+  },
+  "cameras": [
+    {
+      "name": "overhead",
+      "source": "simulation",
+      "device": 0,
+      "width": 640,
+      "height": 480,
+      "eye": [
+        0.18,
+        0.0,
+        0.55
+      ],
+      "target": [
+        0.18,
+        0.0,
+        0.0
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "focal_px": 700.0,
+      "calibrated": false,
+      "intrinsic_matrix": null,
+      "distortion": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "side",
+      "source": "simulation",
+      "device": 0,
+      "width": 640,
+      "height": 480,
+      "eye": [
+        0.38,
+        -0.4,
+        0.3
+      ],
+      "target": [
+        0.16,
+        0.0,
+        0.04
+      ],
+      "up": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "focal_px": 700.0,
+      "calibrated": false,
+      "intrinsic_matrix": null,
+      "distortion": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "table_z": 0.0,
+  "paper_z": 0.005,
+  "paper_contact_depth_m": 0.0,
+  "hover_z": 0.028,
+  "brush_tip_offset": [
+    0.1,
+    0.0,
+    -0.1
+  ],
+  "brush_length_m": 0.1,
+  "brush_mount_rpy": [
+    0.0,
+    1.5707963267948966,
+    0.0
+  ],
+  "brush_axis": [
+    0.0,
+    0.0,
+    1.0
+  ],
+  "max_tip_speed": 0.045,
+  "paint_speed": 0.02,
+  "max_joint_speed": 0.6,
+  "max_joint_accel": 1.5,
+  "sample_hz": 50,
+  "max_batch_duration_s": 60.0,
+  "position_tolerance_m": 0.0015,
+  "brush_tilt_tolerance_deg": 5.0,
+  "edge_margin_m": 0.002,
+  "max_load_distance_m": 0.15,
+  "brush_width_m": 0.003,
+  "wash_dwell_s": 0.75,
+  "load_dwell_s": 0.3,
+  "sim_paint_offset_xy": [
+    0.0008,
+    -0.0004
+  ]
+}
